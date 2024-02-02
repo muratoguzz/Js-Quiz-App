@@ -153,3 +153,16 @@
     margin-bottom: 10px;
 }
 
+/* mobile */
+
+@media(max-width: 768px) {
+    .score_box {
+        width: 350px;
+    }
+
+    .quiz_box {
+        width: 350px;
+    }
+
+    
+}
