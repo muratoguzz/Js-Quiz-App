@@ -9,8 +9,9 @@ Soru.prototype.cevabiKontrolEt = function(cevap) {
 }
 
 let sorular = [
-    new Soru("1-Hangisi javascript paket yönetim uygulasıdır?", { a: "Node.js", b: "Typescript", c: "Npm" , d: "Nuget" }, "c"),
-    new Soru("2-Hangisi frontend kapsamında değerlendirilmez?", { a: "css", b: "html", c: "javascipt", d: "sql" }, "d"),
-    new Soru("3-Hangisi backend kapsamında değerlendirilir?", { a: "node.js", b: "typescript", c: "angular", d: "react" }, "a"),
-    new Soru("4-Hangisi javascript programlama dilini kullanmaz?", { a: "react", b: "angular", c: "vuejs", d: "asp.net" }, "d")
+    new Soru("1-Hangisi Türkiye'nin başkentidir?", { a: "Ankara", b: "Atina", c: "Sofya", d: "Paris" }, "a"),
+    new Soru("2-Hangisi Yunanistan'ın başkentidir?", { a: "Berlin", b: "Atina", c: "Varşova", d: "Madrid" }, "b"),
+    new Soru("3-Hangisi Almanya'nın başkentidir?", { a: "Paris", b: "Atina", c: "Berlin", d: "Madrid" }, "c"),
+    new Soru("4-Hangisi İtalya'nın başkentidir?", { a: "Roma", b: "Paris", c: "Berlin", d: "Atina" }, "a"),
+    new Soru("5-Hangisi Fransa'nın başkentidir?", { a: "Roma", b: "Paris", c: "Berlin", d: "Atina" }, "b")
 ];
